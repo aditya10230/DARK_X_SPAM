@@ -4,12 +4,12 @@ import sys
 import git
 import heroku3
 # Changed root to DARK X 
-from DARK X SPAM import BOT0, BOT1, BOT2, BOT3, BOT4, BOT5, BOT6, BOT7, BOT8, BOT9
-from DARK X SPAM import OWNER_ID, SUDO_USERS, HEROKU_APP_NAME, HEROKU_API_KEY, DARK X version
-from DARK X SPAM import CMD_HNDLR as hl
+from DARKxSPAM import BOT0, BOT1, BOT2, BOT3, BOT4, BOT5, BOT6, BOT7, BOT8, BOT9
+from DARKxSPAM import OWNER_ID, SUDO_USERS, HEROKU_APP_NAME, HEROKU_API_KEY, darkversion
+from DARKxSPAM import CMD_HNDLR as hl
 from telethon.tl.functions.users import GetFullUserRequest
 # alive Pic By Default It's Will Show Our
-from DARK X SPAM  import ALIVE_PIC
+from DARKxSPAM  import ALIVE_PIC
 from telethon import events, version, Button
 from telethon.tl.custom import button
 from time import time
@@ -19,12 +19,12 @@ ZAID_PIC = ALIVE_PIC if ALIVE_PIC else
 "https://te.legra.ph/file/97144812e984a369edb2c.jpg"
   
 
-DARK X SPAM  = "✯ DARK X SPAM HERE✯\n\n"
-DARK X SPAM  += f"═══════════════════\n"
-DARK X SPAM += f"• **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `3.10.1`\n"
-DARK X SPAM  += f"• **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `{version.__version__}`\n"
-DARK X SPAM  += f"• **DARK BOTᴠᴇʀsɪᴏɴ**  : `{darkversion}`\n"
-DARK X SPAM  += f"═══════════════════\n\n"   
+DARKXSPAM  = "✯ DARK X SPAM HERE✯\n\n"
+DARKXSPAM  += f"═══════════════════\n"
+DARKXSPAM += f"• **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `3.10.1`\n"
+DARKXSPAM  += f"• **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `{version.__version__}`\n"
+DARKXSPAM  += f"• **DARK BOT ᴠᴇʀsɪᴏɴ**  : `{darkversion}`\n"
+DARKXSPAM  += f"═══════════════════\n\n"   
 
                                   
 @BOT0.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
