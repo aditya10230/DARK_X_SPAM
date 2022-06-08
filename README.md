@@ -25,7 +25,7 @@
 
 #### With Heroku
 
-<a href="https://www.heroku.com/deploy?template=https://github.com/aditya10230/DARK_X_SPAM/Deploy">
+<a href="https://www.heroku.com/deploy?template=https://github.com/aditya10230/DARK_X_SPAM">
   <img src="https://www.herokucdn.com/deploy/button.svg">
 </a>
 
@@ -34,5 +34,3 @@
 
 ## credits 
 
-
-[THE RIZOEL](t.me/TheRiZoeL)
