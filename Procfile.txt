@@ -1,3 +1,1 @@
-DARKxSPAM: python -m DARKxSPAM
-Godfather: python -m Godfather
-
+DARK X SPAM: python -m GDARK X SPAM
