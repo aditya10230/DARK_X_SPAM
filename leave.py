@@ -1,6 +1,6 @@
 import asyncio
-from DARK X SPAM  import BOT0, BOT1, BOT2, BOT3, BOT4, BOT5, BOT6, BOT7, BOT8, BOT9, SUDO_USERS, OWNER_ID
-from DARK X SPAM  import CMD_HNDLR as hl
+from DARKxSPAM  import BOT0, BOT1, BOT2, BOT3, BOT4, BOT5, BOT6, BOT7, BOT8, BOT9, SUDO_USERS, OWNER_ID
+from DARKxSPAM  import CMD_HNDLR as hl
 import telethon.utils
 from telethon.tl import functions
 from telethon.tl.functions.channels import LeaveChannelRequest
