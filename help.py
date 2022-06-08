@@ -25,7 +25,7 @@ ZAID_Help += f" `.raid` - BANDE KI MAA CHODNE KE LIYE \n `.replyraid` - USKE REP
 
 ZAID_Help += f" .zaidspam - ɪ ᴡɪʟʟ ꜱᴜɢɢᴇꜱᴛ ᴅᴏɴ'ᴛ ᴜꜱᴇ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ😂 ↧\n\n"
 
-ZAID_Help += f"© @Timesisnotwaiting\n"
+ZAID_Help += f"© @NARUT0XD\n"
 
 
 @BOT0.on(events.NewMessage(incoming=True, pattern=r"\%shelp(?: |$)(.*)" % hl))
