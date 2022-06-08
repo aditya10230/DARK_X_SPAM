@@ -1,5 +1,5 @@
 build:
   docker:
-    DARK X SPAM: Dockerfile
+    DARKxSPAM: Dockerfile
 run:
-  DARK X SPAM: python3 -m Dark X Spam
+  DARKxSPAM: python3 -m DARKxSPAM
