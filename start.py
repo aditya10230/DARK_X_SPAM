@@ -3,11 +3,11 @@ import os
 from telethon.tl.functions.users import GetFullUserRequest
 from telethon import events, Button
 from telethon.tl.custom import button
-from DARK X SPAM import BOT0, BOT1, BOT2, BOT3, BOT4, BOT5, BOT6, BOT7, BOT8, BOT9, ALIVE_PIC, OWNER_ID
+from DARKxSPAM import BOT0, BOT1, BOT2, BOT3, BOT4, BOT5, BOT6, BOT7, BOT8, BOT9, ALIVE_PIC, OWNER_ID
 
-DARK X SPAM_IMG = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/c6f99c0b68ff07439ed72.jpg"
+DARKxSPAM_IMG = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/c6f99c0b68ff07439ed72.jpg"
 
-DARK X SPAM_Button = [
+DARKxSPAM_Button = [
         [
         Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/Dark_X_ChattingZone")
         ],
@@ -52,12 +52,12 @@ async def start(event):
        usermsg = f"**Hello, {firstname} ! Nice To Meet You, Well I Am {bot_id}, An Powerfull Spam Bot.** \n\n**If You Want Your Own Spam Bots You Can Deploy From Button Below.** \n\n**"
        if event.sender_id == OWNER_ID:
             await event.client.send_file(TheDARK,
-                  DARK X SPAM_IMG,
+                  DARKxSPAM_IMG,
                   caption=ownermsg, 
-                  buttons=DARK X SPAM_Button)
+                  buttons=DARKxSPAM_Button)
        else:
             await event.client.send_file(TheDark,
-                  DARK X SPAM_IMG,
+                  DARKxSPAM_IMG,
                   caption=usermsg, 
-                  buttons=DARK X SPAM_Button)
+                  buttons=DARKxSPAM_Button)
                 
