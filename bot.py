@@ -4,9 +4,9 @@ import sys
 import git
 import heroku3
 # Changed root to DARK X 
-from DARK X  import BOT0, BOT1, BOT2, BOT3, BOT4, BOT5, BOT6, BOT7, BOT8, BOT9
-from DARK X  import OWNER_ID, SUDO_USERS, HEROKU_APP_NAME, HEROKU_API_KEY, DARK X version
-from DARK X  import CMD_HNDLR as hl
+from DARK X SPAM import BOT0, BOT1, BOT2, BOT3, BOT4, BOT5, BOT6, BOT7, BOT8, BOT9
+from DARK X SPAM import OWNER_ID, SUDO_USERS, HEROKU_APP_NAME, HEROKU_API_KEY, DARK X version
+from DARK X SPAM import CMD_HNDLR as hl
 from telethon.tl.functions.users import GetFullUserRequest
 # alive Pic By Default It's Will Show Our
 from DARK X SPAM  import ALIVE_PIC
