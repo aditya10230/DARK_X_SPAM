@@ -1,0 +1,5 @@
+build:
+  docker:
+    OfficialAditya: Dockerfile
+run:
+  OfficialAditya: python3 -m Dark x Spam
