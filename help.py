@@ -1,9 +1,9 @@
-from DARK X SPAM  import BOT0,SUDO_USERS
+from DARKxSPAM  import BOT0,SUDO_USERS
 from telethon import events, Button
 from telethon.tl.custom import button
 from time import time
 from datetime import datetime
-from DARK X SPAM  import CMD_HNDLR as hl
+from DARKxSPAM  import CMD_HNDLR as hl
     
 HELP_PIC = "https://te.legra.ph/file/1e66335b09a34ce1fb87e.jpg"
 
