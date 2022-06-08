@@ -1,1 +1,1 @@
-DARK X SPAM: python -m DARK X SPAM
+DARKxSPAM: python -m DARKxSPAM
